@@ -9,6 +9,7 @@ yarn-error.log*
 # 忽略IDE配置文件
 .idea/
 .vscode/
+out/
 
 # 忽略系统文件
 .DS_Store
@@ -22,8 +23,7 @@ Thumbs.db
 /target/
 
 # 忽略IDE配置文件
-.idea/
-.vscode/
+
 
 # 忽略Maven和Gradle的日志文件
 pom.xml.tag
@@ -35,8 +35,4 @@ pom.xml.versionsBackup
 build/
 
 # 忽略系统文件
-.DS_Store
-Thumbs.db
 
-# 忽略日志文件
-*.log
